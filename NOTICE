@@ -1,0 +1,24 @@
+opencode-purge
+Copyright (c) 2026 opencode-purge contributors
+
+This product is an independent implementation for the OpenCode plugin API.
+It contains no code from, and is not derived from, any third-party project.
+
+Prior art / inspiration
+------------------------
+
+The idea of a configurable prompt-injection layer for a coding harness,
+including named prompt profiles, swappable rulesets and a documented
+resolution order, was popularised by:
+
+  dsh-purge — https://github.com/YuJunZhiXue/dsh-purge
+  by YuJunZhiXue, for DeepSeek Harness.
+
+This project is not affiliated with that project or with DeepSeek.
+It targets a different host (OpenCode v2), uses a different mechanism
+(plugin hooks rather than patching vendor packages), and shares no code,
+prompts or configuration format with it. Credit is given here as a
+courtesy to the original work.
+
+DeepSeek Harness is a product of DeepSeek. OpenCode is a product of its
+respective authors. Neither is affiliated with this project.

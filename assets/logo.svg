@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="purgeLogoTitle purgeLogoDesc">
+  <title id="purgeLogoTitle">opencode-purge</title>
+  <desc id="purgeLogoDesc">Three stacked prompt blocks; the middle one, highlighted in teal, is slid out of the stack.</desc>
+  <g>
+    <rect x="38" y="56" width="132" height="32" rx="9" fill="#8b929c"/>
+    <rect x="64" y="102" width="154" height="52" rx="14" fill="#35d0ba"/>
+    <rect x="38" y="168" width="96" height="32" rx="9" fill="#8b929c"/>
+  </g>
+</svg>

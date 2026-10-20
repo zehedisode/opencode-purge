@@ -1,0 +1,36 @@
+// Copy this to purge.jsonc in your project root, or to
+// ~/.config/opencode/purge.jsonc to use it everywhere.
+{
+  "version": 1,
+  "default": "terse",
+  "profiles": [
+    {
+      "id": "terse",
+      "name": "Terse",
+      "description": "Short answers, no ceremony.",
+      "system": "Answer in as few words as possible. No preamble, no summary, no praise, no restating the question."
+    },
+    {
+      "id": "reviewer",
+      "description": "Read-only reviewer that runs on large models",
+      "systemFile": "profiles/reviewer.md",
+      "rules": ["rules/severity.md"],
+      "match": [{ "provider": "anthropic", "model": "*sonnet*" }]
+    },
+    {
+      "id": "local",
+      "description": "Small local models need explicit, stepwise instructions",
+      "system": "You are working with a small context window. Read one file at a time. Do not plan ahead beyond the next tool call.",
+      "match": [{ "provider": "ollama" }, { "provider": "lmstudio" }]
+    }
+  ],
+  "guard": {
+    "mode": "off",
+    "deny": [],
+    "allow": []
+  },
+  "audit": {
+    "enabled": true,
+    "max": 200
+  }
+}

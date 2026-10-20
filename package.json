@@ -1,0 +1,59 @@
+{
+  "name": "opencode-purge",
+  "version": "0.1.0",
+  "description": "Declarative prompt control for OpenCode — profiles, rulesets and host policy per model, with no host patching.",
+  "type": "module",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README.tr.md",
+    "LICENSE",
+    "NOTICE",
+    "assets"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "prompt",
+    "system-prompt",
+    "prompt-engineering",
+    "ai-agent",
+    "llm"
+  ],
+  "author": "zehedisode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zehedisode/opencode-purge.git"
+  },
+  "homepage": "https://github.com/zehedisode/opencode-purge#readme",
+  "bugs": {
+    "url": "https://github.com/zehedisode/opencode-purge/issues"
+  },
+  "scripts": {
+    "build": "bun run build:js && bun run build:types",
+    "build:js": "bun build src/index.ts --outfile dist/index.js --target node --format esm --external @opencode/plugin",
+    "build:types": "tsc --emitDeclarationOnly --outDir dist",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "check": "bun run typecheck && bun run test",
+    "prepublishOnly": "bun run check && bun run build"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "2.0.32",
+    "@types/bun": "^1.4.3",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.2"
+  }
+}
