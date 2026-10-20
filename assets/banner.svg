@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="purgeBannerTitle purgeBannerDesc">
   <title id="purgeBannerTitle">opencode-purge — Declarative prompt control for OpenCode</title>
-  <desc id="purgeBannerDesc">Dark banner: a layered prompt-block mark with one teal layer, the opencode-purge wordmark with a teal terminal caret, and the tagline "Declarative prompt control for OpenCode".</desc>
+  <desc id="purgeBannerDesc">Dark banner: a three-layer prompt-block mark with the active layer in teal, the opencode-purge wordmark with a teal terminal caret, and the tagline "Declarative prompt control for OpenCode".</desc>
   <defs>
     <clipPath id="frame">
       <rect width="1280" height="320" rx="26"/>
     </clipPath>
     <radialGradient id="haze" cx="0.84" cy="0.46" r="0.72">
-      <stop offset="0" stop-color="#35d0ba" stop-opacity="0.18"/>
-      <stop offset="0.45" stop-color="#35d0ba" stop-opacity="0.06"/>
+      <stop offset="0" stop-color="#35d0ba" stop-opacity="0.22"/>
+      <stop offset="0.45" stop-color="#35d0ba" stop-opacity="0.07"/>
       <stop offset="1" stop-color="#35d0ba" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="dotsFade" x1="0" y1="0" x2="1" y2="0">
@@ -31,9 +31,11 @@
       <rect x="64" y="102" width="154" height="52" rx="14" fill="#35d0ba"/>
       <rect x="38" y="168" width="96" height="32" rx="9" fill="#8b929c"/>
     </g>
-    <rect x="941" y="107" width="13" height="60" rx="4" fill="#35d0ba"/>
-    <text x="225" y="167" textLength="690" lengthAdjust="spacing" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="84" font-weight="500" fill="#e8eaed">opencode-purge</text>
-    <text x="225" y="209" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" letter-spacing="0.1" fill="#8b929c">Declarative prompt control for OpenCode</text>
+    <text x="225" y="167" textLength="403" lengthAdjust="spacing" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="84" font-weight="500" fill="#e8eaed">opencode</text>
+    <rect x="638" y="139" width="26" height="8" rx="4" fill="#35d0ba"/>
+    <text x="674" y="167" textLength="252" lengthAdjust="spacing" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="84" font-weight="500" fill="#e8eaed">purge</text>
+    <rect x="952" y="107" width="13" height="60" rx="4" fill="#35d0ba"/>
+    <text x="225" y="214" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" letter-spacing="0.1" fill="#8b929c">Declarative prompt control for OpenCode</text>
   </g>
   <rect x="0.5" y="0.5" width="1279" height="319" rx="25.5" fill="none" stroke="#e8eaed" stroke-opacity="0.09"/>
 </svg>

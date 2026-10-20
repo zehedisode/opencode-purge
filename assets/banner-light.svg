@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="purgeBannerLightTitle purgeBannerLightDesc">
   <title id="purgeBannerLightTitle">opencode-purge — Declarative prompt control for OpenCode</title>
-  <desc id="purgeBannerLightDesc">Light banner: a layered prompt-block mark with one teal layer, the opencode-purge wordmark with a teal terminal caret, and the tagline "Declarative prompt control for OpenCode".</desc>
+  <desc id="purgeBannerLightDesc">Light banner: a three-layer prompt-block mark with the active layer in teal, the opencode-purge wordmark with a teal terminal caret, and the tagline "Declarative prompt control for OpenCode".</desc>
   <defs>
     <clipPath id="frame">
       <rect width="1280" height="320" rx="26"/>
@@ -11,13 +11,13 @@
       <stop offset="1" stop-color="#f6f7f9"/>
     </linearGradient>
     <radialGradient id="haze" cx="0.84" cy="0.46" r="0.72">
-      <stop offset="0" stop-color="#0d9488" stop-opacity="0.12"/>
-      <stop offset="0.45" stop-color="#0d9488" stop-opacity="0.04"/>
+      <stop offset="0" stop-color="#0d9488" stop-opacity="0.14"/>
+      <stop offset="0.45" stop-color="#0d9488" stop-opacity="0.045"/>
       <stop offset="1" stop-color="#0d9488" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="shade" cx="0.78" cy="0.5" r="0.62">
-      <stop offset="0" stop-color="#e6ebee" stop-opacity="0.85"/>
-      <stop offset="0.55" stop-color="#f1f4f6" stop-opacity="0.5"/>
+    <radialGradient id="shade" cx="0.8" cy="0.5" r="0.85">
+      <stop offset="0" stop-color="#e9eef1" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#f4f6f8" stop-opacity="0.3"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="dotsFade" x1="0" y1="0" x2="1" y2="0">
@@ -37,13 +37,15 @@
     <rect width="1280" height="320" fill="url(#haze)"/>
     <rect width="1280" height="320" fill="url(#dots)" mask="url(#dotsMask)"/>
     <g transform="translate(47.7 91) scale(0.6389)">
-      <rect x="38" y="56" width="132" height="32" rx="9" fill="#9aa1ab"/>
+      <rect x="38" y="56" width="132" height="32" rx="9" fill="#7c848e"/>
       <rect x="64" y="102" width="154" height="52" rx="14" fill="#0d9488"/>
-      <rect x="38" y="168" width="96" height="32" rx="9" fill="#9aa1ab"/>
+      <rect x="38" y="168" width="96" height="32" rx="9" fill="#7c848e"/>
     </g>
-    <rect x="941" y="107" width="13" height="60" rx="4" fill="#0d9488"/>
-    <text x="225" y="167" textLength="690" lengthAdjust="spacing" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="84" font-weight="500" fill="#0b0d10">opencode-purge</text>
-    <text x="225" y="209" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" letter-spacing="0.1" fill="#5b6472">Declarative prompt control for OpenCode</text>
+    <text x="225" y="167" textLength="403" lengthAdjust="spacing" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="84" font-weight="500" fill="#0b0d10">opencode</text>
+    <rect x="638" y="139" width="26" height="8" rx="4" fill="#0d9488"/>
+    <text x="674" y="167" textLength="252" lengthAdjust="spacing" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="84" font-weight="500" fill="#0b0d10">purge</text>
+    <rect x="952" y="107" width="13" height="60" rx="4" fill="#0d9488"/>
+    <text x="225" y="214" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" letter-spacing="0.1" fill="#5b6472">Declarative prompt control for OpenCode</text>
   </g>
   <rect x="0.5" y="0.5" width="1279" height="319" rx="25.5" fill="none" stroke="#0b0d10" stroke-opacity="0.1"/>
 </svg>
